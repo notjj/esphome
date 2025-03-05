@@ -21,7 +21,7 @@ const unsigned char SEVEN_SEG[] PROGMEM = {
     0x40, /* - */
     0x04, /* . */
     0x52, /* / */
-    0xCB, /* 0 */
+    0xEB, /* 0 */
     0x48, /* 1 */
     0xD3, /* 2 */
     0xDA, /* 3 */
