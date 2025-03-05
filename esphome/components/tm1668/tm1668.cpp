@@ -169,7 +169,7 @@ uint8_t TM1668Component::print(uint8_t start_pos, const char *str) {
       {
         pos--;
       }
-      this->buffer_[pos] |= 0b10000000;  // turn on the dot on the previous position
+      this->buffer_[pos] |= 0b00000100;  // turn on the dot on the previous position
       last_was_dot = true;               // set a bit in case the next chracter is also a dot
     } else                               // if not a dot, then just write the character to display
     {
